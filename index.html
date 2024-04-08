@@ -30,15 +30,13 @@
   text-align: center; /* 设置文字居中 */
       }
       .logo img{
+        float: left;
         width: 36px;
         height: auto;
       }
       h1 {
   margin: 0; /* 清除标题的默认边距 */
   font-size: 36px; /* 设置标题字体大小 */
-}
-      nav {
-  margin-top: 10px; /* 设置导航栏距离标题的上边距 */
 }
       nav {
         margin-left: auto;
@@ -80,11 +78,13 @@
   </head>
   <body>
     <header role="banner">
+      <div class="logo">
+        <a herf="https://www.dbrxfun.com/">
+          <img src="logo.png" alt="Logo">
+        </a>
+        </div>
       <h1>Dbrx Fun</h1>
       <nav role="navigation"></nav>
-       <div class="logo">
-          <img src="logo.png" alt="Logo">
-        </div>
     </header>
 
     <section>
